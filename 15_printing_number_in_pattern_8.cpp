@@ -1,33 +1,34 @@
-// 13_printing_number_in_pattern_6
+// 15_printing_number_in_pattern_8
 
 /*To print:-
 
 1
-22
-333
-4444
-55555
+2 3
+3 4 5
+4 5 6 7
+5 6 7 8 9
+6 7 8 9 10 11
+
 
 */ 
-
-
 #include<iostream>
 using namespace std;
 
 int main(){
     int i=1,n;
-    cout << "Enter the value of n: ";
+    cout << "Enter Number of line/row : ";
     cin >>n;
-
+    
     while (i<=n)
-    {   
-
-        int j=1;
+    {   int j = 1, c = i;
         while (j<=i)
         {
-            cout << i ;
+            cout <<c <<" ";
+            c++;
             j++;
         }
+        
+        
         cout <<endl;
         i++;
 
