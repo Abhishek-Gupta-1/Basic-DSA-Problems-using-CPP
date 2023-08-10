@@ -31,7 +31,7 @@ int main(){
          while (p<=i)
         {
            
-            cout << "*" << " ";
+            cout << k << " ";
             p++;
             k++;
         }
