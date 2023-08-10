@@ -1,4 +1,4 @@
-// 29_printing_star_pattern_22
+// 30_printing_star_pattern_23
 
 
 /*To print :-
