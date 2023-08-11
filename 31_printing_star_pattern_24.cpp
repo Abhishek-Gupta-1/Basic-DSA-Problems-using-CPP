@@ -28,6 +28,7 @@ int main(){
             cout << "  ";
             j--;
         }
+        int k = 1;
          while (p<=i)
         {
            
@@ -35,9 +36,13 @@ int main(){
             p++;
             k++;
         }
-        
-        
-        cout <<endl;
+    int z=i,q= i -1 ;
+        while(q>0){
+            cout << --z << " ";
+            q--;
+        }
+
+          cout <<endl;
         i++;
 
         
